@@ -10,12 +10,12 @@ name: 'N4 -Execução Integrada'
 
 on:
   workflow_dispatch:
-  
+
   push:
-      branches:
-        - main
-        - master
-        - develop
+    branches:
+      - main
+      - master
+      - develop
 #tarefas dentro da pipeline = jobs
 
 jobs:
